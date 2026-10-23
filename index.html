@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Bozor — onlayn do‘kon</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header><div class="bar">
+<div class="logo">Bozor</div>
+<label class="search"><input id="q" type="search" placeholder="Mahsulot qidirish" aria-label="Qidirish"><span>Izlash</span></label>
+<button class="cartbtn" id="open" aria-label="Savatni ochish">🛒 <span>Savat</span><b id="cnt">0</b></button>
+</div></header>
+<main>
+<section class="hero"><div><h1>Kuz chegirmalari: 50% gacha</h1><p>Toshkent bo‘ylab 1–2 kunda yetkazib berish</p></div><div class="big">🎁</div></section>
+<nav class="cats" id="cats" aria-label="Kategoriyalar"></nav>
+<h2 id="title">Barcha mahsulotlar</h2>
+<section class="grid" id="grid"></section>
+</main>
+<div class="shade" id="shade"></div>
+<aside id="cart" aria-label="Savat">
+<div class="ah">Savat <button id="close" aria-label="Yopish">×</button></div>
+<div class="items" id="items"></div>
+<div class="foot"><div class="tot"><span>Jami</span><span id="sum">0 so‘m</span></div><button class="buy" id="buy">Buyurtma berish</button></div>
+</aside>
+<div class="toast" id="toast"></div>
+<script src="script.js"></script>
+</body>
+</html>
